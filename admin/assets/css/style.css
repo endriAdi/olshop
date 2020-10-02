@@ -1,0 +1,204 @@
+body {
+    font-family: 'Montserrat';
+    position: relative;
+    line-height: 100%;
+    padding-bottom: 250px;
+
+}
+
+h2 {
+    border-top: 5px
+}
+
+/* Navbar */
+.navbar{
+    background-color: #171717;
+    border-bottom: 1px solid #333333; 
+}
+
+.nav-item{
+    margin-right: 25px;
+    font-weight: 400;
+}
+
+.nav-item.active a{
+    color: chartreuse !important;
+    font-weight: 600;
+}
+
+.nav-link.active a{
+    color: chartreuse !important;
+    font-weight: 200;
+}
+
+.btn-group{
+    margin-right: 25px;
+    font-weight: 400; 
+}
+
+/* Carousel */
+.carousel{
+    height: 450px;
+    background-color: #171717;
+    color: white;
+}
+
+.carousel h1{
+    font-family: 'lora';
+}
+
+.carousel p{
+    font-weight: 200;
+}
+
+/* Features */
+.features {
+  /*background-color: #eee;*/
+}
+.features h3, .desainer h3, .keranjang h3, .checkout h3, .nota h3, .detail h3, .profil h3, .produk h3{
+    font-family: 'lora';
+    color: #182690;
+    font-weight: bold;
+}
+.riwayat h3, .pembayaran h3, .lihat-pembayaran h3, .pencarian h3, .kategori h3, .editprofil h3, .about h3{
+   font-family: 'lora';
+    color: #182690;
+    font-weight: bold;
+}
+
+.features p, .desainer p, footer p, .nav a, .pembayaran p, .produk p{
+    font-weight: 200;
+    color: #b7b7b7;
+}
+
+/* Figure */
+/*.figure {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+}*/
+
+.figure h5{
+    font-weight: bold;
+    color: #171717;
+}
+.figure a{
+    font-weight: bold;
+    color: #171717;
+}
+
+.figure-img{
+    position: relative;
+}
+
+.figure-img img{
+    height: 100px;
+}
+
+.figure-img a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: opacity 0.3s;
+    height: 100%;
+}
+
+.figure-img:hover a{
+    opacity: 1;
+}
+
+.figcaption button {
+  font-weight: 200;
+  color: #171717;
+}
+
+/* Breadcrumb */
+.breadcrumb{
+    margin-top: 0;
+    margin-left: 0;
+}
+
+/* Produk thumbnail */
+.product-thumbnail-container{
+    background-color: pink;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    padding: 5%;
+    margin: auto;
+    transform: translateY(-70px);
+    cursor: pointer;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.product-thumbnail-container a:hover{
+    text-decoration: none;
+}
+
+.img-thumbnail{
+  width: 30%;
+  cursor: pointer;
+}
+
+.d-flex button{
+    font-weight: 200;
+}
+
+
+/*deskripsi produk*/
+.product-description {
+  margin-top: -50px;
+  background-color: #F6F7FB;
+  height: 350px;
+}
+
+.product-description .tab-content {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-top: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.product-description .tab-content p {
+  font-size: 16px;
+  font-weight: 200;
+  color: #868686;
+  line-height: 28px;
+}
+
+.product-review {
+  height: 330px;
+  overflow: scroll;
+}
+
+.product-review h5 {
+  font-size: 18px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.product-review p {
+  font-size: 14px !important;
+}
+
+footer {
+  background-color: #171717;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.about span{
+  text-transform: uppercase;
+  font-size: 15px;
+  color: blue;
+}
+
+.about i{
+  width: 100px;
+  height: 100px;
+}
